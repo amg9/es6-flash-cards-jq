@@ -1,0 +1,25 @@
+body {
+  background-color: #B6AFA9;
+}
+
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 5px;
+}
+
+.front {
+  background-color:ivory;
+  height: 200px;
+  width: 300px;
+}
+
+.back {
+  background-color: azure;
+  height: 200px;
+  width: 300px;
+  display: none;
+}
