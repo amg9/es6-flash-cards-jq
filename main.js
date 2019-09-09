@@ -50,7 +50,7 @@ $(document).ready( function() {
     $(`.${this.classList[0]}`).remove();
   });
   
-  var count = 2
+  var count = 9
   
   $('body').on('click', '#add', function() {
     count = count + 1
