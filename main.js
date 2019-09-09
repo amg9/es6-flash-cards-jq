@@ -45,6 +45,10 @@ $(document).ready( function() {
   $('.back > .edit').on('click', function() {
     editBack(this);
   });
+
+  $('.delete').on('click', function() {
+    $(`.${this.classList[0]}`).remove();
+  });
   
   var count = 2
   
@@ -70,7 +74,7 @@ $(document).ready( function() {
           <button class="c${count} submit">Submit</button>
         </div>
       </div>
-      <button>Delete</button> 
+      <button class="c${count} delete">Delete</button> 
     </div>  
     `));  
     
@@ -88,6 +92,10 @@ $(document).ready( function() {
 
     $('.back > .edit').on('click', function() {
       editBack(this);
+    });
+
+    $('.delete').on('click', function() {
+      $(`.${this.classList[0]}`).remove();
     });
   });
 });
