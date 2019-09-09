@@ -8,29 +8,47 @@
     <h1>jQuery ES6 Flash Cards</h1>
     <button id="add">Add Card</button>
     <div id="cards">
-      <div id="card1" class="card c1">
-        <div class="front">
-          <button class="c1 show-back">Show Back</button>
-          <h2>ES6</h2>
-        </div>
-        <div class="back">
-          <button class="c1 show-front">Show Front</button>
-          <p>ECMAScript version 6. ES is a standard for scripting languages. JavaScript is an implementation of ES</p>
-        </div>
-        <button>Edit</button>
-        <button>Delete</button>     
-      </div>
-      <div id="card2" class="card c2">
-        <div class="front">
+      <div id="card2" class="c2 card">
+        <div class="c2 front">
           <button class="c2 show-back">Show Back</button>
+          <button class="c2 edit">Edit</button>
           <h2>L</h2>
+          <div class="c2 change">
+            <input type="text" />
+            <button class="c2 submit">Submit</button>
+          </div>
         </div>
-        <div class="back">
+        <div class="c2 back">
           <button class="c2 show-front">Show Front</button>
+          <button class="c2 edit">Edit</button>
           <p>I</p>
+          <div class="c2 change">
+            <textarea></textarea>
+            <button class="c2 submit">Submit</button>
+          </div>
         </div>
-        <button>Edit</button>
         <button>Delete</button> 
+      </div>
+      <div id="card1" class="c1 card">
+        <div class="c1 front">
+          <button class="c1 show-back">Show Back</button>
+          <button class="c1 edit">Edit</button>
+          <h2>ES6</h2>
+          <div class="c1 change">
+              <input type="text" />
+              <button class="c1 submit">Submit</button>
+            </div>
+        </div>
+        <div class="c1 back">
+          <button class="c1 show-front">Show Front</button>
+          <button class="c1 edit">Edit</button>
+          <p>ECMAScript version 6. ES is a standard for scripting languages. JavaScript is an implementation of ES</p>
+          <div class="c1 change">
+              <textarea></textarea>
+              <button class="c1 submit">Submit</button>
+            </div>
+        </div>
+        <button>Delete</button>
       </div>
     </div>
 
